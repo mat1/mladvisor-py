@@ -21,8 +21,11 @@ def comp_to_dict(competition):
     }
 
 
-for page in range(1, 3):
-    time.sleep(5)
+print("Start downloading competitions")
+
+for page in range(1, 16):
+    print(page)
+    time.sleep(10)
     comps = api.competitions_list(page=page)
     competitions.extend([comp_to_dict(c) for c in comps])
 
@@ -35,11 +38,18 @@ def file_to_dict(file):
     }
 
 
+print(len(competitions))
+print("Start listing files")
+
 for competition in competitions:
-    time.sleep(5)
+    time.sleep(10)
     files = api.competition_list_files(competition['ref'])
     competition['files'] = [file_to_dict(f) for f in files]
 
 
 s = json.dumps(competitions)
 print(s)
+
+text_file = open("Output.json", "w")
+text_file.write(s)
+text_file.close()
