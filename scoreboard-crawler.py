@@ -14,4 +14,5 @@ print(len(competitions))
 
 for c in competitions:
     print("Download scoreboard for {}".format(c['ref']))
+    time.sleep(1)
     api.competition_leaderboard_download(c['ref'], 'scoreboards')
