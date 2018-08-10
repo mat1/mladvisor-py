@@ -1,14 +1,17 @@
 import os
-import logging
-import subprocess
-import kaggle
 import json
 import time
+from kaggle import api
 
-text_file = open("Output.json", "r")
+
+text_file = open("./metadata/competitions.json", "r")
 s = text_file.read()
 text_file.close()
 
-comp = json.loads(s);
+competitions = json.loads(s)
 
-print(len(comp))
+print(len(competitions))
+
+for c in competitions:
+    print("Download scoreboard for {}".format(c['ref']))
+    api.competition_leaderboard_download(c['ref'], 'scoreboards')

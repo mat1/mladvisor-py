@@ -1,7 +1,6 @@
 import os
 import logging
 import subprocess
-import kaggle
 import json
 import time
 from kaggle import api
