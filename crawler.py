@@ -38,8 +38,8 @@ def file_to_dict(file):
     }
 
 
-print(len(competitions))
-print("Start listing files")
+print("Downloaded {} competitions".format(len(competitions)))
+print("Start list files")
 
 for competition in competitions:
     time.sleep(10)
@@ -48,8 +48,7 @@ for competition in competitions:
 
 
 s = json.dumps(competitions)
-print(s)
 
-text_file = open("Output.json", "w")
+text_file = open("./metadata/competitions.json", "w")
 text_file.write(s)
 text_file.close()
