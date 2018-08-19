@@ -5,3 +5,4 @@ data/
 .ipython
 .ipynb_checkpoints
 __pycache__
+.jupyter
