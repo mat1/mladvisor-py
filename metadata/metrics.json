@@ -1,1 +1,2942 @@
-[{"id": 8, "name": "Root Mean Squared Logarithmic Error", "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.", "submissionFileFormatId": null, "competitionId": null, "isMax": false, "requiresSameRowCountInSubmissionAndSolution": true, "ref": "house-prices-advanced-regression-techniques"}]
+[
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "house-prices-advanced-regression-techniques"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "digit-recognizer"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "titanic"
+    },
+    {
+        "id": 310,
+        "name": "ImageNetObjectLocalization",
+        "description": "ImageNetObjectLocalization",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "imagenet-object-localization-challenge"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "competitive-data-science-predict-future-sales"
+    },
+    {
+        "id": 316,
+        "name": "IntersectionOverUnionObjectSegmentation",
+        "description": "Evaluates multi-object segmentation quality using average precision",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "tgs-salt-identification-challenge"
+    },
+    {
+        "id": 321,
+        "name": "IntersectionOverUnionObjectSegmentationBeta",
+        "description": "Evaluates multi-object segmentation quality average precision, F1 score, or F2 score (for beta = 0, 1, or 2)",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "airbus-ship-detection"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "new-york-city-taxi-fare-prediction"
+    },
+    {
+        "id": 288,
+        "name": "Weighted AUC, with agreement check and correlation check",
+        "description": "Weighted Area Under Receiver Operating Characteristic Curve",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "flavours-of-physics-kernels-only"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "forest-cover-type-kernels-only"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "whats-cooking-kernels-only"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "movie-review-sentiment-analysis-kernels-only"
+    },
+    {
+        "id": 20,
+        "name": "SMAPE",
+        "description": "Symmetric Mean Absolute Percentage Error",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "demand-forecasting-kernels-only"
+    },
+    {
+        "id": 269,
+        "name": "Macro F-Score",
+        "description": "Macro F-Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "costa-rican-household-poverty-prediction"
+    },
+    {
+        "id": 319,
+        "name": "OpenImagesObjectDetectionAP",
+        "description": "OpenImagesObjectDetectionAP",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "google-ai-open-images-object-detection-track"
+    },
+    {
+        "id": 320,
+        "name": "OpenImagesVisualRelations",
+        "description": "OpenImagesVisualRelations metric for Open Images (by Google AI). The metric is the mean of 3 different measurements: mAP for each relation, mean Recall per image, and mAP of union of two boxes per relation",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "google-ai-open-images-visual-relationship-track"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "home-credit-default-risk"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "santander-value-prediction-challenge"
+    },
+    {
+        "id": 318,
+        "name": "TrackML",
+        "description": "CERN Particle Tracking Metric",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "trackml-particle-identification"
+    },
+    {
+        "id": 301,
+        "name": "GoogleGlobalAP",
+        "description": "GoogleGlobalAP",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "youtube8m-2018"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "freesound-audio-tagging"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "whale-categorization-playground"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "avito-demand-prediction"
+    },
+    {
+        "id": 317,
+        "name": "CVPRAutoDrivingAveragePrecision",
+        "description": "Evaluates multi-object segmentation quality using average precision",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "cvpr-2018-autonomous-driving"
+    },
+    {
+        "id": 304,
+        "name": "",
+        "description": "MeanBestErrorAtK - same metric as LSVRC (ImageNet) Scene Classification metric. Parameter K defines the number of predictions you take into account for each sample.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "inaturalist-2018"
+    },
+    {
+        "id": 285,
+        "name": "Mean F-Score Beta",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "imaterialist-challenge-fashion-2018"
+    },
+    {
+        "id": 304,
+        "name": "",
+        "description": "MeanBestErrorAtK - same metric as LSVRC (ImageNet) Scene Classification metric. Parameter K defines the number of predictions you take into account for each sample.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "imaterialist-challenge-furniture-2018"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "landmark-retrieval-challenge"
+    },
+    {
+        "id": 301,
+        "name": "GoogleGlobalAP",
+        "description": "GoogleGlobalAP",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "landmark-recognition-challenge"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "talkingdata-adtracking-fraud-detection"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "donorschoose-application-screening"
+    },
+    {
+        "id": 316,
+        "name": "IntersectionOverUnionObjectSegmentation",
+        "description": "Evaluates multi-object segmentation quality using average precision",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "data-science-bowl-2018"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mens-machine-learning-competition-2018"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "womens-machine-learning-competition-2018"
+    },
+    {
+        "id": 265,
+        "name": "Mean Columnwise Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "jigsaw-toxic-comment-classification-challenge"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "plant-seedlings-classification"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dog-breed-identification"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mercari-price-suggestion-challenge"
+    },
+    {
+        "id": 307,
+        "name": "Mean Columnwise Root Mean Squared Logarithmic Error",
+        "description": "Average of the RMSLE of each column.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "nomad2018-predict-transparent-conductors"
+    },
+    {
+        "id": 314,
+        "name": "Weighted Categorization Accuracy",
+        "description": "Weighted percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "sp-society-camera-model-identification"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "recruit-restaurant-visitor-forecasting"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "statoil-iceberg-classifier-challenge"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "tensorflow-speech-recognition-challenge"
+    },
+    {
+        "id": 241,
+        "name": "Normalized Weighted Root Mean Squared Logarithmic Error",
+        "description": "Weighted square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "favorita-grocery-sales-forecasting"
+    },
+    {
+        "id": 313,
+        "name": "Average Normalized Happiness",
+        "description": "Average Normalized Happiness",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "santa-gift-matching"
+    },
+    {
+        "id": 306,
+        "name": "ZillowMAE",
+        "description": "Zillow Mean Absolute Error",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "zillow-prize-1"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kkbox-churn-prediction-challenge"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kkbox-music-recommendation-challenge"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "spooky-author-identification"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "passenger-screening-algorithm-challenge"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "cdiscount-image-classification-challenge"
+    },
+    {
+        "id": 10,
+        "name": "Normalized Gini Index",
+        "description": "Gini value of predicted values divided by Gini of perfect values",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "porto-seguro-safe-driver-prediction"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "text-normalization-challenge-english-language"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "text-normalization-challenge-russian-language"
+    },
+    {
+        "id": 20,
+        "name": "SMAPE",
+        "description": "Symmetric Mean Absolute Percentage Error",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "web-traffic-time-series-forecasting"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "msk-redefining-cancer-treatment"
+    },
+    {
+        "id": 309,
+        "name": "Score",
+        "description": "Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "nips-2017-non-targeted-adversarial-attack"
+    },
+    {
+        "id": 309,
+        "name": "Score",
+        "description": "Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "nips-2017-targeted-adversarial-attack"
+    },
+    {
+        "id": 309,
+        "name": "Score",
+        "description": "Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "nips-2017-defense-against-adversarial-attack"
+    },
+    {
+        "id": 292,
+        "name": "",
+        "description": "Mean Dice Coefficient",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "carvana-image-masking-challenge"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "nyc-taxi-trip-duration"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "invasive-species-monitoring"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "instacart-market-basket-analysis"
+    },
+    {
+        "id": 285,
+        "name": "Mean F-Score Beta",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "planet-understanding-the-amazon-from-space"
+    },
+    {
+        "id": 303,
+        "name": "R^2 score (coefficient of determination)",
+        "description": "The coefficient of determination",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mercedes-benz-greener-manufacturing"
+    },
+    {
+        "id": 304,
+        "name": "",
+        "description": "MeanBestErrorAtK - same metric as LSVRC (ImageNet) Scene Classification metric. Parameter K defines the number of predictions you take into account for each sample.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "inaturalist-challenge-at-fgvc-2017"
+    },
+    {
+        "id": 304,
+        "name": "",
+        "description": "MeanBestErrorAtK - same metric as LSVRC (ImageNet) Scene Classification metric. Parameter K defines the number of predictions you take into account for each sample.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "imaterialist-challenge-FGVC2017"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "sberbank-russian-housing-market"
+    },
+    {
+        "id": 24,
+        "name": "Mean Columnwise Root Mean Squared Error",
+        "description": "Average of the RMSE of each column.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "noaa-fisheries-steller-sea-lion-population-count"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "intel-mobileodt-cervical-cancer-screening"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "quora-question-pairs"
+    },
+    {
+        "id": 301,
+        "name": "GoogleGlobalAP",
+        "description": "GoogleGlobalAP",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "youtube8m"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "two-sigma-connect-rental-listing-inquiries"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-nature-conservancy-fisheries-monitoring"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "data-science-bowl-2017"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "march-machine-learning-mania-2017"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "transfer-learning-on-stack-exchange-tags"
+    },
+    {
+        "id": 302,
+        "name": "JaccardDSTLParallel",
+        "description": "JaccardDSTLParallel",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dstl-satellite-imagery-feature-detection"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dogs-vs-cats-redux-kernels-edition"
+    },
+    {
+        "id": 298,
+        "name": "R Value",
+        "description": "R Correlation",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "two-sigma-financial-modeling"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "leaf-classification"
+    },
+    {
+        "id": 300,
+        "name": "SantaWeightedBins",
+        "description": "",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "santas-uncertain-bags"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "outbrain-click-prediction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "facial-keypoints-detection"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "street-view-getting-started-with-julia"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "santander-product-recommendation"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "allstate-claims-severity"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "melbourne-university-seizure-prediction"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "ghouls-goblins-and-ghosts-boo"
+    },
+    {
+        "id": 287,
+        "name": "Matthews correlation coefficient",
+        "description": "Matthews correlation coefficient",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "bosch-production-line-performance"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "painter-by-numbers"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "integer-sequence-learning"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "predicting-red-hat-business-value"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "talkingdata-mobile-user-demographics"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "grupo-bimbo-inventory-demand"
+    },
+    {
+        "id": 292,
+        "name": "",
+        "description": "Mean Dice Coefficient",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "ultrasound-nerve-segmentation"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "state-farm-distracted-driver-detection"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "shelter-animal-outcomes"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "avito-duplicate-ads-detection"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "facebook-v-predicting-check-ins"
+    },
+    {
+        "id": 294,
+        "name": "",
+        "description": "Mean Average Spearman's r (rank correlation  coefficient)",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "draper-satellite-image-chronology"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kobe-bryant-shot-selection"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "expedia-hotel-recommendations"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "sf-crime"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "santander-customer-satisfaction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "home-depot-product-search-relevance"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "bnp-paribas-cardif-claims-management"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "yelp-restaurant-photo-classification"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "march-machine-learning-mania-2016"
+    },
+    {
+        "id": 281,
+        "name": "Continuous Rank Probability Score",
+        "description": "Continuous Ranked Probability Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "second-annual-data-science-bowl"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "telstra-recruiting-network"
+    },
+    {
+        "id": 21,
+        "name": "QuadraticWeightedKappa",
+        "description": "Quadratic Weighted Kappa",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "prudential-life-insurance-assessment"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-allen-ai-science-challenge"
+    },
+    {
+        "id": 251,
+        "name": "",
+        "description": "Normalized Discounted Cumulative Gain at K documents",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "airbnb-recruiting-new-user-bookings"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "homesite-quote-conversion"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "cervical-cancer-screening"
+    },
+    {
+        "id": 23,
+        "name": "Weighted Mean Absolute Error",
+        "description": "Weighted average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-winton-stock-market-challenge"
+    },
+    {
+        "id": 290,
+        "name": "SantaRideShare",
+        "description": "Takes trips of delivery, and return the weighted distance of travel",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "santas-stolen-sleigh"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "noaa-right-whale-recognition"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "walmart-recruiting-trip-type-classification"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "whats-cooking"
+    },
+    {
+        "id": 289,
+        "name": "Root Mean Square Percentage Error",
+        "description": "Square root of the average of the squared percent errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "rossmann-store-sales"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "how-much-did-it-rain-ii"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "deloitte-western-australia-rental-prices"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "springleaf-marketing-response"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dato-native"
+    },
+    {
+        "id": 288,
+        "name": "Weighted AUC, with agreement check and correlation check",
+        "description": "Weighted Area Under Receiver Operating Characteristic Curve",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "flavours-of-physics"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "denoising-dirty-documents"
+    },
+    {
+        "id": 250,
+        "name": "",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "coupon-purchase-prediction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "introducing-kaggle-scripts"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "caterpillar-tube-pricing"
+    },
+    {
+        "id": 265,
+        "name": "Mean Columnwise Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "grasp-and-lift-eeg-detection"
+    },
+    {
+        "id": 10,
+        "name": "Normalized Gini Index",
+        "description": "Gini value of predicted values divided by Gini of perfect values",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "liberty-mutual-group-property-inspection-prediction"
+    },
+    {
+        "id": 285,
+        "name": "Mean F-Score Beta",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "icdm-2015-drawbridge-cross-device-connections"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "avito-context-ad-clicks"
+    },
+    {
+        "id": 21,
+        "name": "QuadraticWeightedKappa",
+        "description": "Quadratic Weighted Kappa",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "diabetic-retinopathy-detection"
+    },
+    {
+        "id": 21,
+        "name": "QuadraticWeightedKappa",
+        "description": "Quadratic Weighted Kappa",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "crowdflower-search-relevance"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "pkdd-15-taxi-trip-time-prediction-ii"
+    },
+    {
+        "id": 283,
+        "name": "Averaged Haversine Distance",
+        "description": "Averaged Haversine Distance",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "pkdd-15-predict-taxi-service-trajectory-i"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "word2vec-nlp-tutorial"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "predict-west-nile-virus"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "facebook-recruiting-iv-human-or-bot"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "random-acts-of-pizza"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "poker-rule-induction"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "bike-sharing-demand"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "walmart-recruiting-sales-in-stormy-weather"
+    },
+    {
+        "id": 30,
+        "name": "Multiclass Loss",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "otto-group-product-classification-challenge"
+    },
+    {
+        "id": 281,
+        "name": "Continuous Rank Probability Score",
+        "description": "Continuous Ranked Probability Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "how-much-did-it-rain"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "forest-cover-type-prediction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "restaurant-revenue-prediction"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "15-071x-the-analytics-edge-competition-spring-2015"
+    },
+    {
+        "id": 15,
+        "name": "Levenshtein Mean",
+        "description": "Averages the Levenshtein edit distance of strings",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "billion-word-imputation"
+    },
+    {
+        "id": 284,
+        "name": "Multiclass Loss (Deprecated)",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "malware-classification"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "march-machine-learning-mania-2015"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "15-071x-the-analytics-edge-spring-20152"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "finding-elo"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "axa-driver-telematics-analysis"
+    },
+    {
+        "id": 284,
+        "name": "Multiclass Loss (Deprecated)",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "datasciencebowl"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "sentiment-analysis-on-movie-reviews"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "inria-bci-challenge"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "avazu-ctr-prediction"
+    },
+    {
+        "id": 279,
+        "name": "Packing Santas Sleigh Metric",
+        "description": "Given job schedules, checks constraints and returns the datetime the last toy is complete.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "helping-santas-helpers"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "data-science-london-scikit-learn"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "seizure-prediction"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "tradeshift-text-classification"
+    },
+    {
+        "id": 277,
+        "name": "FacebookCircles",
+        "description": "Facebook Circles",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "learning-social-circles"
+    },
+    {
+        "id": 24,
+        "name": "Mean Columnwise Root Mean Squared Error",
+        "description": "Average of the RMSE of each column.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "afsis-soil-properties"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "cifar-10"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "criteo-display-ad-challenge"
+    },
+    {
+        "id": 276,
+        "name": "Higgs Boson Approximate Median Significance",
+        "description": "Higgs Boson Approximate Median Significance",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "higgs-boson"
+    },
+    {
+        "id": 275,
+        "name": "Weighted Gini",
+        "description": "Weighted area between the null hypothesis and actual value when ordered by predicted value",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "liberty-mutual-fire-peril"
+    },
+    {
+        "id": 244,
+        "name": "",
+        "description": "Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "avito-prohibited-content"
+    },
+    {
+        "id": 265,
+        "name": "Mean Columnwise Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "seizure-detection"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "decoding-the-human-brain"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mlsp-2014-mri"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kdd-cup-2014-predicting-excitement-at-donors-choose"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "wise-2014"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "acquire-valued-shoppers-challenge"
+    },
+    {
+        "id": 273,
+        "name": "Amex Custom Gini And Percentage Capture",
+        "description": "Mean of Gini and Percentage Capture of top 5%",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "risky-business"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "allstate-purchase-prediction-challenge"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "connectomics"
+    },
+    {
+        "id": 23,
+        "name": "Weighted Mean Absolute Error",
+        "description": "Weighted average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "walmart-recruiting-store-sales-forecasting"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-analytics-edge-mit-15-071x"
+    },
+    {
+        "id": 269,
+        "name": "Macro F-Score",
+        "description": "Macro F-Score",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "lshtc"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "march-machine-learning-mania-2014"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "galaxy-zoo-the-galaxy-challenge"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "random-number-grand-challenge"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "pakdd-cup-2014"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "loan-default-prediction"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "genentech-flu-forecasting"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "conway-s-reverse-game-of-life"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dogs-vs-cats"
+    },
+    {
+        "id": 268,
+        "name": "Packing Santas Sleigh Metric",
+        "description": "Given packing of presents, verfies present integrity and calculates the custom metric.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "packing-santas-sleigh"
+    },
+    {
+        "id": 251,
+        "name": "",
+        "description": "Normalized Discounted Cumulative Gain at K documents",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "yandex-personalized-web-search-challenge"
+    },
+    {
+        "id": 265,
+        "name": "Mean Columnwise Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "deloitte-churn-prediction"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "facebook-recruiting-iii-keyword-extraction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "crowdflower-weather-twitter"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "see-click-predict-fix"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "multilabel-bird-species-classification-nips2013"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "accelerometer-biometric-competition"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "ams-2014-solar-energy-prediction-contest"
+    },
+    {
+        "id": 251,
+        "name": "",
+        "description": "Normalized Discounted Cumulative Gain at K documents",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "expedia-personalized-sort"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "stumbleupon"
+    },
+    {
+        "id": 245,
+        "name": "",
+        "description": "",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "belkin-energy-disaggregation-competition"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "battlefin-s-big-data-combine-forecasting-challenge"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-seeclickfix-311-challenge"
+    },
+    {
+        "id": 242,
+        "name": "Bidirectional AUC for Cause Effect Pairs",
+        "description": "Solution should contain -1, 0, or 1. Averages AUC of 1 vs rest and -1 vs rest",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "cause-effect-pairs"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "yelp-recsys-2013"
+    },
+    {
+        "id": 17,
+        "name": "Gesture Normalized Levenshtein Mean",
+        "description": "Normalized edit distance for Gesture challenge",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "multi-modal-gesture-recognition"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mlsp-2013-birds"
+    },
+    {
+        "id": 243,
+        "name": "Mastercard Levenshtein AUC Metric",
+        "description": "Hybrid of Levenstein across many columns and AUC",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mastercard-data-cleansing-competition-finals"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "amazon-employee-access-challenge"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "yelp-recruiting"
+    },
+    {
+        "id": 280,
+        "name": "",
+        "description": "Mean Average Precision at K - prior to 2014",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kdd-cup-2013-author-paper-identification-challenge"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-icml-2013-bird-challenge"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "the-icml-2013-whale-challenge-right-whale-redux"
+    },
+    {
+        "id": 28,
+        "name": "Mean F-Score",
+        "description": "Used for categorization when there are many categories per row, Mean F-score across the rows.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kdd-cup-2013-author-disambiguation"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "challenges-in-representation-learning-multi-modal-learning"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "challenges-in-representation-learning-facial-expression-recognition-challenge"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "challenges-in-representation-learning-the-black-box-learning-challenge"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "hack-reduce-dunnhumby-hackathon"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "icdar2013-stroke-recovery-from-offline-data"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "bluebook-for-bulldozers"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "icdar2013-gender-prediction-from-handwriting"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "predict-who-is-more-influential-in-a-social-network"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "whale-detection-challenge"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "hhp"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "job-salary-prediction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "predicting-parkinson-s-disease-progression-with-smartphone-data"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "just-the-basics-the-after-party"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "just-the-basics-strata-2013"
+    },
+    {
+        "id": 37,
+        "name": "Mean Average Precision at K",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "event-recommendation-engine-challenge"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "leapfrogging-leaderboards"
+    },
+    {
+        "id": 238,
+        "name": "Multi-Column Average Precision at K",
+        "description": "Custom Multi-Column Average Precision Evaluation Algorithm.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "RxVolumePrediction"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "visualize-the-state-of-education-in-colorado"
+    },
+    {
+        "id": 239,
+        "name": "Traveling Santa Metric",
+        "description": "Takes two paths that must have disjoint edges. Returns length of longer.",
+        "submissionFileFormatId": null,
+        "competitionId": 3294,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "traveling-santa-problem"
+    },
+    {
+        "id": 234,
+        "name": "DarkWorldsMetric",
+        "description": "Used for the Observing Dark Worlds competition.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "DarkWorlds"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "customer-retention"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "facebook-ii"
+    },
+    {
+        "id": 32,
+        "name": "Normalized Weighted Mean Absolute Error",
+        "description": "Normalized weighted average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "us-census-challenge"
+    },
+    {
+        "id": 284,
+        "name": "Multiclass Loss (Deprecated)",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "predict-closed-questions-on-stack-overflow"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "GEF2012-wind-forecasting"
+    },
+    {
+        "id": 233,
+        "name": "Weighted Root Mean Squared Error",
+        "description": "Square root of the weighted average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "global-energy-forecasting-competition-2012-load-forecasting"
+    },
+    {
+        "id": 231,
+        "name": "DataSetWeightedCorrelationCoefficient",
+        "description": "Correlation coefficient averaged over multiple data sets.",
+        "submissionFileFormatId": null,
+        "competitionId": 2975,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "MerckActivity"
+    },
+    {
+        "id": 37,
+        "name": "Mean Average Precision at K",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "acm-sf-chapter-hackathon-big"
+    },
+    {
+        "id": 37,
+        "name": "Mean Average Precision at K",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "acm-sf-chapter-hackathon-small"
+    },
+    {
+        "id": 229,
+        "name": "Mean F-Score Variant",
+        "description": "Mean F-Score that accepts non-matching indices",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": false,
+        "ref": "cprod1"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "detecting-insults-in-social-commentary"
+    },
+    {
+        "id": 17,
+        "name": "Gesture Normalized Levenshtein Mean",
+        "description": "Normalized edit distance for Gesture challenge",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "GestureChallenge2"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "pf2012-diabetes"
+    },
+    {
+        "id": 284,
+        "name": "Multiclass Loss (Deprecated)",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "emc-data-science"
+    },
+    {
+        "id": 37,
+        "name": "Mean Average Precision at K",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "msdchallenge"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "MusicHackathon"
+    },
+    {
+        "id": 37,
+        "name": "Mean Average Precision at K",
+        "description": "Mean Average Precision at K",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "FacebookRecruiting"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "online-sales"
+    },
+    {
+        "id": 40,
+        "name": "MCAP",
+        "description": "Mean average precision across columns",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "twitter-psychopathy-prediction"
+    },
+    {
+        "id": 40,
+        "name": "MCAP",
+        "description": "Mean average precision across columns",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "twitter-personality-prediction"
+    },
+    {
+        "id": 25,
+        "name": "Log Loss",
+        "description": "Log Loss",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "bioresponse"
+    },
+    {
+        "id": 33,
+        "name": "MAP@3",
+        "description": "Mean average precision @ 3 for the top recommended items.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kddcup2012-track1"
+    },
+    {
+        "id": 38,
+        "name": "",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Has range [0.5, 1.0]. Public leaderboard set is subset of private leaderboard set.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "kddcup2012-track2"
+    },
+    {
+        "id": 22,
+        "name": "WeightedMeanQuadraticWeightedKappa",
+        "description": "Weighted Mean Quadratic Weighted Kappa",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "asap-aes"
+    },
+    {
+        "id": 23,
+        "name": "Weighted Mean Absolute Error",
+        "description": "Weighted average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "benchmark-bond-trade-price-challenge"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dsg-hackathon"
+    },
+    {
+        "id": 14,
+        "name": "Categorization Accuracy",
+        "description": "Percentage of correctly categorized items",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "awic2012"
+    },
+    {
+        "id": 284,
+        "name": "Multiclass Loss (Deprecated)",
+        "description": "Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "emvic"
+    },
+    {
+        "id": 17,
+        "name": "Gesture Normalized Levenshtein Mean",
+        "description": "Normalized edit distance for Gesture challenge",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "GestureChallenge"
+    },
+    {
+        "id": 7,
+        "name": "Capped Binomial Deviance",
+        "description": "A variant Log Likelihood statistic.",
+        "submissionFileFormatId": null,
+        "competitionId": 2479,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "WhatDoYouKnow"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "getting-started"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "AlgorithmicTradingChallenge"
+    },
+    {
+        "id": 9,
+        "name": "Gini Index",
+        "description": "Area between the null hypothesis and actual value when ordered by predicted value",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "DontGetKicked"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "GiveMeSomeCredit"
+    },
+    {
+        "id": 7,
+        "name": "Capped Binomial Deviance",
+        "description": "A variant Log Likelihood statistic.",
+        "submissionFileFormatId": null,
+        "competitionId": 2479,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "PhotoQualityPrediction"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "SemiSupervisedFeatureLearning"
+    },
+    {
+        "id": 10,
+        "name": "Normalized Gini Index",
+        "description": "Gini value of predicted values divided by Gini of perfect values",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "ClaimPredictionChallenge"
+    },
+    {
+        "id": 12,
+        "name": "% Correct Visits",
+        "description": "Percentage of correctly predicted visits.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "dunnhumbychallenge"
+    },
+    {
+        "id": 8,
+        "name": "Root Mean Squared Logarithmic Error",
+        "description": "Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "wikichallenge"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "mdm"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "overfitting"
+    },
+    {
+        "id": 7,
+        "name": "Capped Binomial Deviance",
+        "description": "A variant Log Likelihood statistic.",
+        "submissionFileFormatId": null,
+        "competitionId": 2479,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "ChessRatings2"
+    },
+    {
+        "id": 6,
+        "name": "Mean Absolute Error",
+        "description": "Average of the absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "WIC2011"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "stayalert"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "unimelb"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "RTA"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "R"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "socialNetwork"
+    },
+    {
+        "id": 4,
+        "name": "Custom Evaluation Metric",
+        "description": "A placeholder that indicates a custom algorithm is required.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "tourism2"
+    },
+    {
+        "id": 2,
+        "name": "Root Mean Squared Error",
+        "description": "Square root of the average of the squared errors.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "chess"
+    },
+    {
+        "id": 5,
+        "name": "Area Under Receiver Operating Characteristic Curve",
+        "description": "Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "informs2010"
+    },
+    {
+        "id": 4,
+        "name": "Custom Evaluation Metric",
+        "description": "A placeholder that indicates a custom algorithm is required.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "tourism1"
+    },
+    {
+        "id": 3,
+        "name": "Mean Consequential Error",
+        "description": "Averages consequential error (i.e. if prediction isn't exact, the error is 1, otherwise 0). Only useful when predicting things exactly.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": true,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "hivprogression"
+    },
+    {
+        "id": 4,
+        "name": "Custom Evaluation Metric",
+        "description": "A placeholder that indicates a custom algorithm is required.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "worldcup2010"
+    },
+    {
+        "id": 4,
+        "name": "Custom Evaluation Metric",
+        "description": "A placeholder that indicates a custom algorithm is required.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "worldcupconf"
+    },
+    {
+        "id": 1,
+        "name": "Absolute Error",
+        "description": "Total sum of absolute value of each individual error.",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "Eurovision2010"
+    },
+    {
+        "id": 228,
+        "name": "AverageAmongTop{P}",
+        "description": "",
+        "submissionFileFormatId": null,
+        "competitionId": null,
+        "isMax": false,
+        "requiresSameRowCountInSubmissionAndSolution": true,
+        "ref": "Raising-Money-to-Fund-an-Organizational-Mission"
+    }
+]
