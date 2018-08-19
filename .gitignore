@@ -4,3 +4,4 @@ data/
 .cache
 .ipython
 .ipynb_checkpoints
+__pycache__
