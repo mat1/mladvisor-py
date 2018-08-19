@@ -48,6 +48,6 @@ for competition in competitions:
 
 s = json.dumps(competitions)
 
-text_file = open("./metadata/competitions.json", "w")
+text_file = open("../metadata/competitions.json", "w")
 text_file.write(s)
 text_file.close()

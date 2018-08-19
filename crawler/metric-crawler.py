@@ -3,7 +3,7 @@ import re
 import os
 import json
 
-text_file = open("./metadata/competitions.json", "r")
+text_file = open("../metadata/competitions.json", "r")
 s = text_file.read()
 text_file.close()
 
@@ -37,7 +37,7 @@ print(metrics)
 
 s = json.dumps(metrics)
 
-text_file = open("./metadata/metrics.json", "w")
+text_file = open("../metadata/metrics.json", "w")
 text_file.write(s)
 text_file.close()
 

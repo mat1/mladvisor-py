@@ -150,7 +150,7 @@ print(len(small))
 errors = []
 
 for c in small:
-    path = 'data/{}'.format(c)
+    path = '../data/{}'.format(c)
 
     if os.path.isdir(path):
         print("Path {} already exists".format(path))

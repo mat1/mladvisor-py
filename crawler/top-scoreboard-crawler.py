@@ -4,7 +4,7 @@ import time
 from kaggle import api
 
 
-text_file = open("./metadata/competitions.json", "r")
+text_file = open("../metadata/competitions.json", "r")
 s = text_file.read()
 text_file.close()
 
@@ -34,13 +34,14 @@ for c in competitions:
     results = api.competition_leaderboard_view(c['ref'])
 
     board['top'] = [leaderboard_entry_to_dict(item) for item in results]
-    board['best'] = None if len(board['top']) <= 0 else board['top'][0]['score']
+    board['best'] = None if len(
+        board['top']) <= 0 else board['top'][0]['score']
 
     leaderboards.append(board)
 
 
 s = json.dumps(leaderboards)
 
-text_file = open("./metadata/leaderboards.json", "w")
+text_file = open("../metadata/leaderboards.json", "w")
 text_file.write(s)
 text_file.close()
